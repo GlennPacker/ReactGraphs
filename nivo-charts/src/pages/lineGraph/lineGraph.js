@@ -8,9 +8,10 @@ export const LineGraph = ({ data, yFormat = null, title = 'Power'  }) => (
         data={data}
         margin={{ top: 50, right: 150, bottom: 50, left: 50 }}
         xScale={{ type: 'point' }}
-        yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: true, reverse: false }}
+        yScale={{ type: 'linear', min: 'auto', max: 'auto', stacked: false, reverse: false }}
+        enableSlices="x"
         yFormat
-        curve="cardinal"
+        curve="monotoneX"
         axisTop={null}
         axisRight={null}
         axisBottom={{
