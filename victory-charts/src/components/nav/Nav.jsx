@@ -2,7 +2,11 @@ import React from 'react';
 import NavItem from './NavItem';
 
 const Nav = () => {
-    const navItems = [{
+    const navItems = [ {
+        id: "bar",
+        label: 'Bar',
+        to: '/bar'
+    }, {
         id: "line",
         label: 'Line',
         to: '/line'
