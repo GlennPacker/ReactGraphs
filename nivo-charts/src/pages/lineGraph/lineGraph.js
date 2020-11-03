@@ -1,6 +1,6 @@
 import { ResponsiveLine } from '@nivo/line'
 
-export const LineGraph = ({ data, yFormat = null  }) => (
+export const LineGraph = ({ data, yFormat = null, title = 'Power'  }) => (
     // yformat 2 fixed decimal places " >-.2f"
 
     // adjusting margins cuts off graph
@@ -18,7 +18,7 @@ export const LineGraph = ({ data, yFormat = null  }) => (
             tickSize: 5,
             tickPadding: 5,
             tickRotation: 0,
-            legend: 'transportation',
+            legend: title,
             legendOffset: 36,
             legendPosition: 'middle'
         }}

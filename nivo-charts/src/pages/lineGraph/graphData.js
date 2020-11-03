@@ -1,272 +1,181 @@
+const weekDays = {
+    0: 'Sunday',
+    1: 'Monday',
+    2: 'Tuesday',
+    3: 'Wednesday',
+    4: 'Thursday',
+    5: 'Friday',
+    6: 'Saturday',
+}
 
 export const graphData = [
     {
-      "id": "japan",
+      "id": "Generation",
       "color": "hsl(320, 70%, 50%)",
       "data": [
         {
-          "x": "plane",
+          "x": weekDays[new Date(1604391143644).getDay()],
           "y": 263
         },
         {
-          "x": "helicopter",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24)).getDay()],
           "y": 142
         },
         {
-          "x": "boat",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 2)).getDay()],
           "y": 94
         },
         {
-          "x": "train",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 3)).getDay()],
           "y": 185
         },
         {
-          "x": "subway",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 4)).getDay()],
           "y": 28
         },
         {
-          "x": "bus",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 5)).getDay()],
           "y": 271
         },
         {
-          "x": "car",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 6)).getDay()],
           "y": 168
-        },
-        {
-          "x": "moto",
-          "y": 21
-        },
-        {
-          "x": "bicycle",
-          "y": 232
-        },
-        {
-          "x": "horse",
-          "y": 64
-        },
-        {
-          "x": "skateboard",
-          "y": 122
-        },
-        {
-          "x": "others",
-          "y": 267
         }
       ]
     },
     {
-      "id": "france",
+      "id": "Consumption",
       "color": "hsl(30, 70%, 50%)",
       "data": [
         {
-          "x": "plane",
+          "x": weekDays[new Date(1604391143644).getDay()],
           "y": 205
         },
         {
-          "x": "helicopter",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24)).getDay()],
           "y": 226
         },
         {
-          "x": "boat",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 2)).getDay()],
           "y": 21
         },
         {
-          "x": "train",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 3)).getDay()],
           "y": 41
         },
         {
-          "x": "subway",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 4)).getDay()],
           "y": 144
         },
         {
-          "x": "bus",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 5)).getDay()],
           "y": 111
         },
         {
-          "x": "car",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 6)).getDay()],
           "y": 113
-        },
-        {
-          "x": "moto",
-          "y": 45
-        },
-        {
-          "x": "bicycle",
-          "y": 40
-        },
-        {
-          "x": "horse",
-          "y": 127
-        },
-        {
-          "x": "skateboard",
-          "y": 214
-        },
-        {
-          "x": "others",
-          "y": 147
         }
       ]
     },
     {
-      "id": "us",
+      "id": "Battery",
       "color": "hsl(239, 70%, 50%)",
       "data": [
         {
-          "x": "plane",
+          "x": weekDays[new Date(1604391143644).getDay()],
           "y": 256
         },
         {
-          "x": "helicopter",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24)).getDay()],
           "y": 49
         },
         {
-          "x": "boat",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 2)).getDay()],
           "y": 38
         },
         {
-          "x": "train",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 3)).getDay()],
           "y": 176
         },
         {
-          "x": "subway",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 4)).getDay()],
           "y": 130
         },
         {
-          "x": "bus",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 5)).getDay()],
           "y": 270
         },
         {
-          "x": "car",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 6)).getDay()],
           "y": 195
-        },
-        {
-          "x": "moto",
-          "y": 123
-        },
-        {
-          "x": "bicycle",
-          "y": 18
-        },
-        {
-          "x": "horse",
-          "y": 258
-        },
-        {
-          "x": "skateboard",
-          "y": 71
-        },
-        {
-          "x": "others",
-          "y": 69
         }
       ]
     },
     {
-      "id": "germany",
+      "id": "Ground Floor Ring",
       "color": "hsl(304, 70%, 50%)",
       "data": [
         {
-          "x": "plane",
+          "x": weekDays[new Date(1604391143644).getDay()],
           "y": 73
         },
         {
-          "x": "helicopter",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24)).getDay()],
           "y": 120
         },
         {
-          "x": "boat",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 2)).getDay()],
           "y": 154
         },
         {
-          "x": "train",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 3)).getDay()],
           "y": 213
         },
         {
-          "x": "subway",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 4)).getDay()],
           "y": 78
         },
         {
-          "x": "bus",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 5)).getDay()],
           "y": 180
         },
         {
-          "x": "car",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 6)).getDay()],
           "y": 22
-        },
-        {
-          "x": "moto",
-          "y": 70
-        },
-        {
-          "x": "bicycle",
-          "y": 174
-        },
-        {
-          "x": "horse",
-          "y": 57
-        },
-        {
-          "x": "skateboard",
-          "y": 94
-        },
-        {
-          "x": "others",
-          "y": 39
         }
       ]
     },
     {
-      "id": "norway",
+      "id": "Ground Floor Lights",
       "color": "hsl(167, 70%, 50%)",
       "data": [
         {
-          "x": "plane",
+          "x": weekDays[new Date(1604391143644).getDay()],
           "y": 175
         },
         {
-          "x": "helicopter",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24)).getDay()],
           "y": 141
         },
         {
-          "x": "boat",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 2)).getDay()],
           "y": 223
         },
         {
-          "x": "train",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 3)).getDay()],
           "y": 298
         },
         {
-          "x": "subway",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 4)).getDay()],
           "y": 158
         },
         {
-          "x": "bus",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 5)).getDay()],
           "y": 110
         },
         {
-          "x": "car",
+          "x": weekDays[new Date(1604391143644 - (1000 * 60 * 60 * 24 * 6)).getDay()],
           "y": 253
-        },
-        {
-          "x": "moto",
-          "y": 172
-        },
-        {
-          "x": "bicycle",
-          "y": 69
-        },
-        {
-          "x": "horse",
-          "y": 117
-        },
-        {
-          "x": "skateboard",
-          "y": 145
-        },
-        {
-          "x": "others",
-          "y": 177
         }
       ]
     }

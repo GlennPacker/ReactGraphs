@@ -1,6 +1,6 @@
 import React from 'react';
-import { graphData } from './graphData';
-import { LineGraph } from './lineGraph';
+import { graphData } from './GraphData';
+import { LineGraph } from './LineGraph';
 
 const LineGraphExample = () => {
     return (
