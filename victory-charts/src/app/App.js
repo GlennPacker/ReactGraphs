@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="App">
             <h1>
-                Nivo Charts
+                Victory
             </h1>
             <div style={{ display: 'flex', flexDirection: 'row'}} >
                 <div style={{ flex: 'none', width: '10em' }} >
