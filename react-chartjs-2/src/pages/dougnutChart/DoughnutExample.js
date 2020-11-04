@@ -1,8 +1,8 @@
 import React from 'react'
-import { Pie } from 'react-chartjs-2';
+import { Doughnut } from 'react-chartjs-2';
 import 'chartjs-plugin-labels';
 
-const PieChart = () => {
+const DoughnutExample = () => {
     const data = {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
         datasets: [
@@ -46,15 +46,15 @@ const PieChart = () => {
 
     return (
         <div>
-            <h2>Pie Chart</h2>
+            <h2>Dougnut</h2>
             <div>
                 more label options available at <a href="https://emn178.github.io/chartjs-plugin-labels/samples/demo/"> here</a>
             </div>
             <div style={{width: '30em', marginTop: '2em'}}>
-                <Pie data={data} options={options} />
+                <Doughnut data={data} options={options} />
             </div>
         </div>
      );
 }
 
-export default PieChart;
+export default DoughnutExample;
