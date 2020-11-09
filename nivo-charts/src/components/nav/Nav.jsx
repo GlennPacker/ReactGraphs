@@ -10,6 +10,10 @@ const Nav = () => {
         id: "pie",
         label: 'Pie',
         to: '/pie'
+    }, {
+        id: "bar",
+        label: 'Bar',
+        to: '/bar'
     }]
 
     return (
